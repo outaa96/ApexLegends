@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".htplay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="409dp"
+                android:layout_height="729dp"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/img_home"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/homeicon" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/img_left"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                app:srcCompat="@drawable/left" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="170dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/text_Lchar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/kanit"
+                                android:text="วิธีการเล่น"
+                                android:textColor="@color/apexred"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="30dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/img_right"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                app:srcCompat="@drawable/right" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="15dp"
+                    android:orientation="vertical"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kanit"
+                        android:text=" 1. Main Weapon และ Finish Weapon"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/htpone" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="389dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView17"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/kanit"
+                                    android:text="     Main Weapon คือปืนหลักที่เราใช้ทำดาเมจ เช่น R – 301 /Flatline /G7 Scout ปืนที่ยิงได้ต่อเนื่อง มีกระสุนเยอะนั่นเอง  &#xA;     Finish Weapon คือปืนรองที่สามารถ Burst Damage ได้ เช่น R – 99 /Peacekeeper /Wingman ปืนที่ทำดาเมจได้รวดเร็ว &#xA;     เราควรมีสองประเภทนี้ติดไว้เสมอ จะช่วยให้การเล่นของเราสมดุลมากขึ้น นอกจากจะใช้เปลี่ยนอาวุธมายิงแล้ว ยังช่วยประหยัดกระสุนอีกด้วย เพราะ Finish Weapon นั้นใช้กระสุนเพียง 1 – 2 ช่องก็พอแล้ว"
+                                    android:textColor="#000000" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical"></LinearLayout>
+                ---------------------------------------------------------------------------------------
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView144"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kanit"
+                        android:text=" 2. เปลี่ยนตำแหน่งยิง และหนีเมื่อจำเป็น"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView64"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/htptwo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="389dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView174"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/kanit"
+                                    android:text="     อย่ายืนยิงอยู่ที่เดิมซ้ำๆ เราสามารถปีนกำแพงเพื่อขึ้นที่สูง หรือเปลี่ยนที่กำบังได้ไม่ยาก และหนีเมื่อจำเป็นบางครั้งที่เราอยู่ตำแหน่งที่เสียเปรียบกว่า เราสามารถหนีเพื่อล่อให้เข้ามาจุดที่เราได้เปรียบก็ได้
+"
+                                    android:textColor="#000000" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical"></LinearLayout>
+                ---------------------------------------------------------------------------------------
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView143"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kanit"
+                        android:text=" 3. อยู่ห่างกันพอประมาณ อย่าไปคนเดียว"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView63"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/htpthree" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="389dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView173"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/kanit"
+                                    android:text="     เวลาไปกับร่วมทีมนั้น ให้อยู่ห่างกัน อย่าติดกันมากเกินไป ให้อยู่ระยะห่างกันประมาณ 1 – 2 วิที่สามารถช่วยเหลือได้ทัน และที่สำคัญอย่าไปคนเดียว เพราะไม่ว่าคุณจะเก่งขนาดไหน การ 1-3 ในเกมนี้เป็นเรื่องที่ยากมากๆ พยายามเล่นแบบมี Team Work "
+                                    android:textColor="#000000" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical"></LinearLayout>
+                ---------------------------------------------------------------------------------------
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kanit"
+                        android:text=" 4. เก็บและใช้ระเบิด"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView62"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/htpfour" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="389dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView172"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/kanit"
+                                    android:text="     หลายคนเลือกมองข้ามระเบิด แต่จริงๆแล้ว ระเบิดเป็นสิ่งที่ควรพกไว้อย่างน้อย 1 ช่อง โดยเฉพาะดาวกระจาย Arc Star ที่มีประโยชน์มากๆ เพราะนอกจากจะสร้างดาเมจแล้ว ยังทำให้ศัตรูติด Slow ด้วย พยายามฝึกใช้ระเบิดเอาไว้ "
+                                    android:textColor="#000000" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical"></LinearLayout>
+                ---------------------------------------------------------------------------------------
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView145"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kanit"
+                        android:text=" 5. พก Shield Cell ไว้เสมอ"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView65"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/htpfive" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="389dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView175"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/kanit"
+                                    android:text="     Shield Cell คือของที่จำเป็นที่สุดในการปะทะ เพราะมีระยะเวลาการใช้งานที่สั้นที่สุด การหลบและใช้ Shield Cell เติมเลือด 25 ก่อนจะกลับไปลุยต่อเป็นเรื่องที่ดีกว่าออกไปตายทันที"
+                                    android:textColor="#000000" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical"></LinearLayout>
+                ---------------------------------------------------------------------------------------
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView146"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kanit"
+                        android:text=" 6. แจมการปะทะศัตรูเสมอ และ ไม่ปะทะนานเกินไป"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView66"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/htpsix" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="389dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView176"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/kanit"
+                                    android:text="     เมื่อมีการยิงกันเกิดขึ้น ถ้ารู้สึกได้ว่าอยู่ใกล้ คอยสังเกต Kill Feed ให้ดีๆ ถ้าเห็นว่าเริ่มมีคนล้ม หรือตาย เป็นช่วงโอกาสที่ดีที่สุดในการแจม เพราะศัตรูจะไม่ค่อยพร้อมสู้ต่อ และที่สำคัญ อย่าทำให้การปะทะยืดเยื้อ ถ้าฆ่าไม่ได้ก็ปล่อยไป เปลี่ยนตำแหน่งทันที ยิ่งประทะนาน ก็จะยิ่งเรียกทีมอื่นๆ มารุมยิงเรา ทำให้แพ้นั่นเอง"
+                                    android:textColor="#000000" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical"></LinearLayout>
+                ---------------------------------------------------------------------------------------
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView147"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/kanit"
+                        android:text=" 7. ยิงศัตรูเมื่อสามารถฆ่าได้เท่านั้น"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView67"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/htpseven" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="389dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textView177"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/kanit"
+                                    android:text="     อย่ายิงศัตรูทุกคนที่ขวางหน้า เพียงเพราะเพื่อน Ping บอก เราต้องดูว่าระยะนี้เราสามารถฆ่าได้หรือไม่ ไม่งั้นจะเป็นการเปิดตำแหน่งของทีมเราโดยไม่จำเป็น ควรจะบุกยิงโดยมีแผน และอยู่ในระยะที่สามารถฆ่าได้จริงๆ"
+                                    android:textColor="#000000" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="10dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"></LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:orientation="vertical"></LinearLayout>
+                ---------------------------------------------------------------------------------------
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
